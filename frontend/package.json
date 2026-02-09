@@ -7,12 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.90.1",
     "dotenv": "^17.2.3",
+    "format": "^0.2.2",
     "next": "16.1.1",
     "react": "19.2.3",
     "react-dom": "19.2.3",
