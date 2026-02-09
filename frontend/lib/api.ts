@@ -62,7 +62,7 @@ export function getCase(id: string): Promise<Case> {
 // Update the case status/notes.
 export function updateCase(
   id: string,
-  payload: { status: CaseStatus; notes: string }
+  payload: { status: CaseStatus; notes: string },
 ): Promise<Case> {
   return request<Case>(`/cases/${id}`, {
     method: "PUT",
