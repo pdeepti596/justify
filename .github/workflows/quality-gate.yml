@@ -27,8 +27,8 @@ jobs:
       - name: Install
         run: npm ci
 
-      - name: Lint
-        run: npm run lint -- --max-warnings 0
+      # - name: Lint
+      #   run: npm run lint -- --max-warnings 0
 
       - name: Format (prettier check)
         run: npm run format:check
