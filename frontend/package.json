@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "format": "prettier --write ."
+
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.90.1",
